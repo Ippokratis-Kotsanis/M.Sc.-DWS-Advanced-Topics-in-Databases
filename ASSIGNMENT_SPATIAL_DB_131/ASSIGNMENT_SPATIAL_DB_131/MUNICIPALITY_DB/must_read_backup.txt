@@ -1,0 +1,18 @@
+Restore MUNICIPALITY_DB:
+
+To load the backup file and restore your database:
+
+    1. Open pgAdmin and connect to your PostgreSQL server.
+
+    2. In the Object tree, navigate to the target database where you want to restore the backup.
+
+    3. Right-click on the database name and select "Restore...".
+
+    4. In the Restore dialog box, you'll see options to configure the restore process.
+       Filename: Browse and select the backup file you want to restore.
+       Format: Choose the backup format matching the file you are restoring.
+       Options: Select any additional restore options, such as ignoring version mismatch, data-only restore, etc.
+
+    5. Once you have set up the restore options, click the "Restore" button to initiate the restoration process.
+
+    6. After the restore process completes, your database should be restored to the state saved in the backup file.
